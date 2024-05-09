@@ -1,0 +1,1 @@
+import{o as a,c as s,aa as e,ab as d,e as t}from"./vendor.2520681f.js";const o={},n={class:"no-Permission-page"},c=[(a=>(e("data-v-5fa05e8d"),a=a(),d(),a))((()=>t("div",{class:"content"},[t("div",{class:"img"}),t("div",{class:"txt"},"没有权限，请联系管理员")],-1)))];o.render=function(e,d){return a(),s("div",n,c)},o.__scopeId="data-v-5fa05e8d";export{o as default};
