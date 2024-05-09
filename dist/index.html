@@ -1,0 +1,39 @@
+<!--
+ * @Author: zhangxx03 zhangxx03@rd.netease.com
+ * @Date: 2023-03-16 15:04:56
+ * @LastEditors: zhangxx03 zhangxx03@rd.netease.com
+ * @LastEditTime: 2023-03-16 17:53:04
+ * @FilePath: /ai-demo/index.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+  <title></title>
+  <script type="module" crossorigin src="./assets/index.abd25864.js"></script>
+    <link rel="modulepreload" href="./assets/vendor.2520681f.js">
+    <link rel="stylesheet" href="./assets/index.8c3e628c.css">
+  </head>
+<script>
+  const url = window.location.href;
+  //处理从cdn访问时不更新问题
+  if(window.location.href.indexOf('timestamp')===-1 && window.location.href.indexOf('html')>0) {
+    const urlData = url.split('html');
+    window.location.href = `${urlData[0]}html?timestamp=${Date.now()}${urlData[1]}`
+  }
+</script>
+<script src="https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+<body>
+  <div id="app"></div>
+  
+  <script defer src="https://shared.ydstatic.com/js/rlog/v1.js"></script>
+  <script>
+    var _rlog = [];
+    _rlog.push(['_setAccount', 'ai_ai-demo_web']);
+  </script>
+</body>
+</html>
