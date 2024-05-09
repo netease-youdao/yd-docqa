@@ -23,6 +23,10 @@ FILE_STORAGE_PATH = "user_files"
 # QAnything 的 LLM、embedding 配置
 USE_CPU = True
 USE_OPENAI_API = False
+OPENAI_API_BASE = ""
+OPENAI_API_KEY = ""
+OPENAI_API_MODEL_NAME = "gpt-3.5-turbo-1106"
+OPENAI_API_CONTEXT_LENGTH = "4096"
 LLM_MODEL_SIZE = "3B"
 DEVICE_ID = "0"
 

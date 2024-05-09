@@ -72,7 +72,6 @@ args_cli = parser.parse_args()
 args = Arguments()
 args.__dict__.update(args_cli.__dict__)
 
-args.use_openai_api = True
 print('use_cpu:', args.use_cpu, flush=True)
 print('use_openai_api:', args.use_openai_api, flush=True)
 print(f'type(use_openai_api): {type(args.use_openai_api)}', flush=True)

@@ -43,6 +43,9 @@ app.config['JSON_AS_ASCII'] = False # 确保输出正常的 unicode 字符，而
 
 CORS(app) # 允许所有跨域请求
 
+if not os.path.exists('vdbs'):
+    os.makedirs('vdbs')
+
 
 ##############################################################
 
