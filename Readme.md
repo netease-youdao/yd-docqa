@@ -1,9 +1,6 @@
 <div align="center">
 
-  <a href="https://github.com/netease-youdao/yd-docqa">
-    <!-- Please provide path to your logo here -->
-    <img src="docs/images/qanything_logo.png" alt="Logo" width="911" height="175">
-  </a>
+ 
 
 # 有道速读
 
